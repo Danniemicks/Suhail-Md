@@ -6,7 +6,7 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 global.audio= "" ;  
 global.video= "" ;
 global.port =process.env.PORT
-global.appUrl=process.env.APP_URL || ""  // put your app url here,
+global.appUrl=process.env.APP_URL || "https://blockgames.app?referral_code=Danniemicks"  // put your app url here,
 global.email ="danniekharo@gmail.com"
 global.location="Lagos,Nigeria."
 
@@ -19,9 +19,9 @@ global.blockJids= process.env.BLOCK_JID || "null"
 global.DATABASE_URI = process.env.DATABASE_URL || ""
 
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Africa/Nigeria";
-global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md";
-global.gurl  = process.env.GURL || "https://chat.whatsapp.com/JWdI0Sppwib0YDqnHoFPOW";
-global.website= process.env.GURL|| "https://chat.whatsapp.com/JWdI0Sppwib0YDqnHoFPOW" ; 
+global.github=process.env.GITHUB|| "https://github.com/Danniemicks/Danniemicks";
+global.gurl  = process.env.GURL || "https://chat.whatsapp.com/IPSF9c7KTN7L1xYwOD1G93";
+global.website= process.env.GURL|| "https://chat.whatsapp.com/IPSF9c7KTN7L1xYwOD1G93" ; 
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://images.app.goo.gl/uEgauCoMXBCQbkBb8" ; // SET LOGO FOR IMAGE 
 
 
@@ -44,13 +44,13 @@ global.disablepm = process.env.DISABLE_PM || "false", // disable bot in pm when 
 global.disablegroup = process.env.DISABLE_GROUPS || "false", // disable bot in groups when public mode
 
 global.MsgsInLog = process.env.MSGS_IN_LOG|| "false", // "true"  to see messages , "log" to open logs , "false" to hide logs messages
-global.userImages= process.env.USER_IMAGES|| "text", // set IMAGE/VIDEO links here
-global.waPresence= process.env.WAPRESENCE ||  "set according to your need" ; // 'unavailable' | 'available' | 'composing' | 'recording' | 'paused'
+global.userImages= process.env.USER_IMAGES|| "https://images.app.goo.gl/yq7REG7YREvYeDcz9", // set IMAGE/VIDEO links here
+global.waPresence= process.env.WAPRESENCE ||  "Speedbot is interacting, Chillax" ; // 'unavailable' | 'available' | 'composing' | 'recording' | 'paused'
 
 
 //========================= [ AUTO READ MSGS & CMDS ] =========================\\
 global.readcmds = process.env.READ_COMMAND || "true"
-global.readmessage = process.env.READ_MESSAGE || "true"
+global.readmessage = process.env.READ_MESSAGE || "false"
 global.readmessagefrom = process.env.READ_MESSAGE_FROM || "2348060861382,234xxxxxxxx";
 
 
@@ -71,13 +71,13 @@ module.exports = {
 
   menu: process.env.MENU || "", /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Suhail-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
 
-  HANDLERS: process.env.PREFIX  || ".",
+  HANDLERS: process.env.PREFIX  || "Speedbot ",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "1.3.0",
   caption : process.env.CAPTION || "©DANNIEMICKS²²¹-ᴍᴅ" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
  
   author : process.env.PACK_AUTHER|| "DANNIEMICKS",
-  packname: process.env.PACK_NAME || "♥️",
+  packname: process.env.PACK_NAME || "۝☬✪☞★★GÄM̄£Rẞ☉☉S★★☜✪☬۝",
   botname : process.env.BOT_NAME  || "SPEEDBOT",
   ownername:process.env.OWNER_NAME|| "DANNIEMICKS",
 
@@ -95,7 +95,7 @@ module.exports = {
   aitts_Voice_Id : process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
   WORKTYPE: process.env.WORKTYPE||process.env.MODE || "private",
-  LANG: process.env.THEME ? process.env.THEME.toUpperCase() : "SUHAIL",
+  LANG: process.env.THEME ? process.env.THEME.toUpperCase() : "۝☬✪☞★★GÄM̄£Rẞ☉☉S★★☜✪☬۝",
 
 
 
